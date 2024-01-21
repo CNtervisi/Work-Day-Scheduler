@@ -5,7 +5,7 @@ body {
 }
 
 textarea {
-  background: lightgray;
+  background: transparent;
   border: none;
   resize: none;
   color: #000000;
@@ -41,6 +41,8 @@ header {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  display: flex;
+  align-items: center;
 }
 
 .past {
@@ -64,6 +66,10 @@ header {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+}
+
+.saveBtn:hover {
+  background-color: #06aed5;
 }
 
 .saveBtn i:hover {
