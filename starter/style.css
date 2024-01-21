@@ -4,6 +4,11 @@ body {
   line-height: 1;
 }
 
+.container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 textarea {
   background: transparent;
   border: none;
@@ -43,6 +48,7 @@ header {
   border-top: 1px dashed #000000;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .past {
