@@ -1,19 +1,19 @@
 $(document).ready(function () {
   // Current day and format
 var currentDay = dayjs().format("dddd D MMMM YYYY");
-var currentHour = dayjs().hour("h:mm:ss");
+var currentHour = dayjs().hour();
 
   // Update the #currentDay element with the formatted date
 $("#currentDay").text(currentDay);
 
  // Function to update the time
- function updateTime() {
+function updateTime() {
     var currentTime = dayjs().format("h:mm:ss A");
     $("#currentTime").text(currentTime);
- }
+}
 
  // Call the updateTime function every second
- setInterval(updateTime, 1000);
+setInterval(updateTime, 1000);
 
 $(".time-block").each(function () {
 var timeBlockHour = parseInt($(this).attr("id").split("-")[1]);
