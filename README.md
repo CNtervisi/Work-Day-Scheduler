@@ -24,7 +24,7 @@ Each time block is color-coded based on whether it represents a past, present, o
 ## Usage
 When you open the application, you will see the current day displayed at the top of the calendar. You can scroll down to see the time blocks for the standard business hours. Each time block can be clicked to enter an event. When you're done entering the event, click the save button to save the event in local storage. Refreshing the page will persist the saved events.
 
-You can visit the website by clicking on this [LINK](https://cntervisi.github.io/Coding-Quiz/).
+You can visit the website by clicking on this [LINK](https://cntervisi.github.io/Work-Day-Scheduler/).
 
 Here is a screenshot of the Coding-Quiz application:
 
