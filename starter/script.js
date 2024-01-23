@@ -8,7 +8,7 @@ $("#currentDay").text(currentDay);
 
  // Function to update the time
 function updateTime() {
-    var currentTime = dayjs().format("h:mm:ss A");
+    var currentTime = dayjs().format("hh:mm:ss A");
     $("#currentTime").text(currentTime);
 }
 
