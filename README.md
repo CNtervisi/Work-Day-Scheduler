@@ -26,7 +26,7 @@ When you open the application, you will see the current day displayed at the top
 
 You can visit the website by clicking on this [LINK](https://cntervisi.github.io/Work-Day-Scheduler/).
 
-Here is a screenshot of the Coding-Quiz application:
+Here is a screenshot of the Work-Day-Scheduler application:
 
 ![alt"gif"](./images/05-third-party-apis-homework-demo.gif)
 
